@@ -1,5 +1,6 @@
 from app.menu import show_menu
-
+from app.crypto import start_crypto
+from app.ai import show_ai
 
 def main():
     choice = ""
@@ -7,9 +8,9 @@ def main():
         show_menu()
         choice = input("\nВыберите пункт: ")
         if choice == "1":
-           print("📈 Запуск Crypto Agent...")
+           start_crypto()
         elif choice == "2":
-           print("🤖 Запуск AI Agent...")
+           show_ai()
         elif choice == "3":
            print("📰 Запуск News Agent...")
         elif choice == "4":

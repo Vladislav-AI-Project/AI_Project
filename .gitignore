@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальное окружение
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Логи
+*.log
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
